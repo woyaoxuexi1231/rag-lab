@@ -1,6 +1,10 @@
 # RAG Lab
 
-从 Study Hub 抽离的 RAG 智能客服实验室：智能手机导购对话，后端 FastAPI + 前端 Vue。
+## 简介 / Introduction
+
+**中文** — 从 Study Hub 抽离的 RAG 智能客服实验室，聚焦智能手机导购对话。FastAPI 后端用 bge-small-zh 本地向量化、Milvus 检索，再由远端 Ollama qwen2.5 生成回答；前端 Vue 3 提供对话试跑与说明，完整演示一条检索增强问答（RAG）链路。
+
+**English** — An RAG intelligent-customer-service lab split from Study Hub, focused on smartphone-purchase Q&A. The FastAPI backend embeds with local bge-small-zh, retrieves from Milvus, and generates answers with a remote Ollama qwen2.5, surfaced through a Vue 3 frontend — a complete retrieval-augmented generation (RAG) pipeline.
 
 ## 目录结构
 
