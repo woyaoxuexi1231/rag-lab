@@ -1,0 +1,16 @@
+# 依赖与构建
+node_modules/
+dist/
+.nuxt/
+.output/
+.vite/
+coverage/
+
+# 日志
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# 本地环境（.env.development / .env.production 可提交）
+.env.local
+.env.*.local
